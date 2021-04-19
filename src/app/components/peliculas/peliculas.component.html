@@ -1,0 +1,132 @@
+<body style="background-color:#8dd900;">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="JL.jpg" class="d-block w-100" alt="First slade">
+      </div>
+      <div class="carousel-item">
+        <img src="JR.jpg" class="d-block w-100" alt="Second slade">
+      </div>
+      <div class="carousel-item">
+        <img src="A.jpg" class="d-block w-100" alt="Third slade">
+      </div>
+    </div>
+    <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+    
+    <div class="container show-top-margin separate-rows tall-rows">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="head" align="center">Bienvenidos</h2>
+                <h6>Gracias por visitar la pagina</h6>
+                <p class="text-justify">Sean bienvenidos a esta pagina en donde encontraran contenido Acerca de 
+                    de peliculas que en la opinion misma son de mi agrado, al igual de una serie de preguntas para 
+                    que les recuerde algunas cosas que sucedieron en esta misma.
+                </p>
+            </div>
+            <div class="col-6">
+                <h2 class="head2" align="center">Contenido</h2>
+                <h6>Lo que tiene esta pagina</h6>
+                <p class="text-justify">Para mi las peliculas me emocionan ya que entramos en 
+                    los zapatos de los protagonistas y las aventuras que van a emprender durante toda la trama.
+                    También al ver peliculas me entretienen ya que estoy mas interesado en la trama de cada uno de los 
+                    personajes  y también me hace liberar mis sentimientos ya que como le empezamos a agarrar
+                    cariño a cada personaje y cuando ocurre una muerte de dicho personaje reflexiono en como
+                    debió ser mejor un final para el y no causándole la muerte.</p>
+            </div>
+        </div>
+    </div>
+</body>
+    <!--<div id="contenido">
+        <div id="titulo">
+          <p>Cuestionario de conocimientos generales</p>
+        </div>
+        <div id="preguntas">
+          1. {{preguntas[0]}}<br>
+          <input type="radio" value="Thanos" name="respuesta1" [(ngModel)]="respuestascontestadas[0]">
+          <p>a) Thanos</p> <small class="bien">{{palomita}}</small><br>
+          <input type="radio" value="Wanda" name="respuesta1" [(ngModel)]="respuestascontestadas[0]">
+          <p>b) Wanda</p><br>
+          <input type="radio" value="El mismo" name="respuesta1" [(ngModel)]="respuestascontestadas[0]">
+          <p>c) El mismo</p><br>
+          <input type="radio" value="El Capitan America" name="respuesta1" [(ngModel)]="respuestascontestadas[0]">
+          <p>d) El capitan America</p><br><br>
+      
+          2. {{preguntas[1]}}<br>
+          <input type="radio" value="Se fue del pais" name="respuesta2" [(ngModel)]="respuestascontestadas[1]">
+          <p>a) Se fue del pais</p><br>
+          <input type="radio" value="La mataron los nazis" name="respuesta2" [(ngModel)]="respuestascontestadas[1]">
+          <p>b) La mataron los nazis</p> <small class="bien">{{palomita}}</small><br>
+          <input type="radio" value="Se fue a comer" name="respuesta2" [(ngModel)]="respuestascontestadas[1]">
+          <p>c) Se fue a comer</p><br>
+          <input type="radio" value="Se caso" name="respuesta2" [(ngModel)]="respuestascontestadas[1]">
+          <p>d) Se caso</p><br><br>
+      
+          3. {{preguntas[2]}}<br>
+          <input type="radio" value="Damian Wane" name="respuesta3" [(ngModel)]="respuestascontestadas[2]">
+          <p>a) Damian Wane</p> <small class="bien">{{palomita}}</small><br>
+          <input type="radio" value="Bruce Wane" name="respuesta3" [(ngModel)]="respuestascontestadas[2]">
+          <p>b) Bruce Wane</p><br>
+          <input type="radio" value="No se" name="respuesta3" [(ngModel)]="respuestascontestadas[2]">
+          <p>c) No se</p><br>
+          <input type="radio" value="Robin" name="respuesta3" [(ngModel)]="respuestascontestadas[2]">
+          <p>d) Robin</p><br><br>
+      
+          4. {{preguntas[3]}}<br>
+          <input type="radio" value="Skaywalker" name="respuesta4" [(ngModel)]="respuestascontestadas[3]">
+          <p>a) Skaywalker</p> <small class="bien">{{palomita}}</small><br>
+          <input type="radio" value="Organa" name="respuesta4" [(ngModel)]="respuestascontestadas[3]">
+          <p>b) Organa</p><br>
+          <input type="radio" value="Amidala" name="respuesta4" [(ngModel)]="respuestascontestadas[3]">
+          <p>c) Amidala</p><br>
+          <input type="radio" value="Kenobi" name="respuesta4" [(ngModel)]="respuestascontestadas[3]">
+          <p>d) Kenobi</p><br><br>
+      
+          5. {{preguntas[4]}}<br>
+          <input type="radio" value="Star" name="respuesta5" [(ngModel)]="respuestascontestadas[4]">
+          <p>a) Star</p><br>
+          <input type="radio" value="Stark" name="respuesta5" [(ngModel)]="respuestascontestadas[4]">
+          <p>b) Stark</p> <small class="bien">{{palomita}}</small><br>
+          <input type="radio" value="Estrella" name="respuesta5" [(ngModel)]="respuestascontestadas[4]">
+          <p>c) Estrella</p><br>
+          <input type="radio" value="Rogers" name="Rectángulo" [(ngModel)]="respuestascontestadas[4]">
+          <p>d) Rogers</p><br><br>
+      
+          6. {{preguntas[5]}}<br>
+          <input type="radio" value="Que mueras" name="respuesta6" [(ngModel)]="respuestascontestadas[5]">
+          <p>a) Que mueras</p><br>
+          <input type="radio" value="Vive la vida" name="respuesta6" [(ngModel)]="respuestascontestadas[5]">
+          <p>b) Vive la vida</p> <small class="bien">{{palomita}}</small><br>
+          <input type="radio" value="Nada" name="respuesta6" [(ngModel)]="respuestascontestadas[5]">
+          <p>c) Nada</p><br>
+          <input type="radio" value="No se" name="respuesta6" [(ngModel)]="respuestascontestadas[5]">
+          <p>d) No se</p><br><br>
+      
+          7. {{preguntas[6]}}<br>
+          <input type="radio" value="Nomas" name="respuesta7" [(ngModel)]="respuestascontestadas[6]">
+          <p>a) Nomas</p><br>
+          <input type="radio" value="Por que se canso" name="respuesta7" [(ngModel)]="respuestascontestadas[6]">
+          <p>b) Por que se canso</p><br>
+          <input type="radio" value="Porque se hizo viejo al entregar las gemas del infinito" name="respuesta7" [(ngModel)]="respuestascontestadas[6]">
+          <p>c) Porque se hizo viejo al entregar las gemas del infinito</p> <small class="bien">{{palomita}}</small><br>
+          <input type="radio" value="Por que ya no se sentia digno" name="respuesta7" [(ngModel)]="respuestascontestadas[6]">
+          <p>d) Por que ya no se sentia digno </p><br><br>
+      
+          8. {{preguntas[7]}}<br>
+          <input type="radio" value="Salto del Ángel" name="respuesta8" [(ngModel)]="respuestascontestadas[7]">
+          <p>a) Salto del Ángel</p> <small class="bien">{{palomita}}</small><br>
+          <input type="radio" value="Cataratas Victoria" name="respuesta8" [(ngModel)]="respuestascontestadas[7]">
+          <p>b) Cataratas Victoria</p><br>
+          <input type="radio" value="Garganta do Diabo" name="respuesta8" [(ngModel)]="respuestascontestadas[7]">
+          <p>c) Garganta do Diabo</p><br>
+          <input type="radio" value="Cataratas del Iguazú" name="respuesta8" [(ngModel)]="respuestascontestadas[7]">
+          <p>d) Cataratas del Iguazú</p><br><br>
+        </div>
+    </div>-->
